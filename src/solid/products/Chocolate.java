@@ -1,6 +1,9 @@
 package solid.products;
 
-public class Chocolate {
+import solid.interfaces.Food;
+import solid.interfaces.Product;
+
+public class Chocolate implements Food {
 
     public static final double CALORIES_PER_100_GRAMS = 575.0;
 
@@ -12,5 +15,15 @@ public class Chocolate {
 
     public double getGrams() {
         return grams;
+    }
+
+    @Override
+    public double amountOfCalories() {
+        return (CALORIES_PER_100_GRAMS/100) * getGrams();
+    }
+
+    @Override
+    public double foodAmount() {
+        return getGrams()/1000;
     }
 }
