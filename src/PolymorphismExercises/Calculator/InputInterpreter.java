@@ -1,4 +1,4 @@
-package Calculator;
+package PolymorphismExercises.Calculator;
 
 public class InputInterpreter {
     private CalculationEngine engine;

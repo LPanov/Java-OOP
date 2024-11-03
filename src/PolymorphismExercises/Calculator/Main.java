@@ -1,4 +1,4 @@
-package Calculator;
+package PolymorphismExercises.Calculator;
 
 import java.util.Scanner;
 

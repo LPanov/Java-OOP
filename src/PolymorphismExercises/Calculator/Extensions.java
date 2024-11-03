@@ -1,4 +1,4 @@
-package Calculator;
+package PolymorphismExercises.Calculator;
 
 public class Extensions {
     public static InputInterpreter buildInterpreter(CalculationEngine engine) {

@@ -1,13 +1,13 @@
-package Calculator;
+package PolymorphismExercises.Calculator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MsOperation implements Operation{
+public class MultiplicationOperation implements Operation {
     private List<Integer> operands;
     private int result;
 
-    public MsOperation(){
+    public MultiplicationOperation(){
         this.operands = new ArrayList<>();
     }
 
@@ -16,13 +16,13 @@ public class MsOperation implements Operation{
         this.operands.add(operand);
 
         if (this.isCompleted()) {
-            this.result = this.operands.get(0);
+            this.result = this.operands.get(0) * this.operands.get(1);
         }
     }
 
     @Override
     public boolean isCompleted() {
-        return this.operands.size() == 1;
+        return this.operands.size() == 2;
     }
 
     @Override
