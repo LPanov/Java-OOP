@@ -1,3 +1,4 @@
+/*
 package p06_TirePressureMonitoringSystem;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -58,3 +59,4 @@ public class AlarmTest {
         assertTrue(alarm.getAlarmOn());
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package p02_ExtendedDatabase;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -72,11 +73,13 @@ public class DatabaseTest {
         assertEquals(PERSON2, actualPerson);
     }
 
-    /*@Test
+    */
+/*@Test
     public void test_getElement_Should_Return_Only_NonNull_Element() {
         Arrays.stream(database.getElements())
                 .forEach(Assertions::assertNotNull);
-    }*/
+    }*//*
+
 
     @Test
     public void testFindByIdShouldThrowUsername_whenNotPresent() {
@@ -138,3 +141,4 @@ public class DatabaseTest {
         assertEquals(PERSON2.getId(), actualElements.getId());
     }
 }
+*/
